@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E73E80061E5C72B80075329A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E80051E5C72B80075329A /* AppDelegate.swift */; };
+		E73E80081E5C72B80075329A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E80071E5C72B80075329A /* ViewController.swift */; };
+		E73E800B1E5C72B80075329A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73E80091E5C72B80075329A /* Main.storyboard */; };
+		E73E800E1E5C72B80075329A /* FB_issuing_voucher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E73E800C1E5C72B80075329A /* FB_issuing_voucher.xcdatamodeld */; };
+		E73E80101E5C72B80075329A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73E800F1E5C72B80075329A /* Assets.xcassets */; };
+		E73E80131E5C72B80075329A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73E80111E5C72B80075329A /* LaunchScreen.storyboard */; };
+		E73E801E1E5C72B80075329A /* FB_issuing_voucherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E801D1E5C72B80075329A /* FB_issuing_voucherTests.swift */; };
+		E73E80291E5C72B80075329A /* FB_issuing_voucherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E80281E5C72B80075329A /* FB_issuing_voucherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E73E801A1E5C72B80075329A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E73E7FFA1E5C72B80075329A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E73E80011E5C72B80075329A;
+			remoteInfo = "FB issuing voucher";
+		};
+		E73E80251E5C72B80075329A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E73E7FFA1E5C72B80075329A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E73E80011E5C72B80075329A;
+			remoteInfo = "FB issuing voucher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E73E80021E5C72B80075329A /* FB issuing voucher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FB issuing voucher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73E80051E5C72B80075329A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E73E80071E5C72B80075329A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E73E800A1E5C72B80075329A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E73E800D1E5C72B80075329A /* FB_issuing_voucher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FB_issuing_voucher.xcdatamodel; sourceTree = "<group>"; };
+		E73E800F1E5C72B80075329A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E73E80121E5C72B80075329A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E73E80141E5C72B80075329A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73E80191E5C72B80075329A /* FB issuing voucherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FB issuing voucherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73E801D1E5C72B80075329A /* FB_issuing_voucherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FB_issuing_voucherTests.swift; sourceTree = "<group>"; };
+		E73E801F1E5C72B80075329A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73E80241E5C72B80075329A /* FB issuing voucherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FB issuing voucherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73E80281E5C72B80075329A /* FB_issuing_voucherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FB_issuing_voucherUITests.swift; sourceTree = "<group>"; };
+		E73E802A1E5C72B80075329A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E73E7FFF1E5C72B80075329A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73E80161E5C72B80075329A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73E80211E5C72B80075329A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E73E7FF91E5C72B80075329A = {
+			isa = PBXGroup;
+			children = (
+				E73E80041E5C72B80075329A /* FB issuing voucher */,
+				E73E801C1E5C72B80075329A /* FB issuing voucherTests */,
+				E73E80271E5C72B80075329A /* FB issuing voucherUITests */,
+				E73E80031E5C72B80075329A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E73E80031E5C72B80075329A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E73E80021E5C72B80075329A /* FB issuing voucher.app */,
+				E73E80191E5C72B80075329A /* FB issuing voucherTests.xctest */,
+				E73E80241E5C72B80075329A /* FB issuing voucherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E73E80041E5C72B80075329A /* FB issuing voucher */ = {
+			isa = PBXGroup;
+			children = (
+				E73E80051E5C72B80075329A /* AppDelegate.swift */,
+				E73E80071E5C72B80075329A /* ViewController.swift */,
+				E73E80091E5C72B80075329A /* Main.storyboard */,
+				E73E800F1E5C72B80075329A /* Assets.xcassets */,
+				E73E80111E5C72B80075329A /* LaunchScreen.storyboard */,
+				E73E80141E5C72B80075329A /* Info.plist */,
+				E73E800C1E5C72B80075329A /* FB_issuing_voucher.xcdatamodeld */,
+			);
+			path = "FB issuing voucher";
+			sourceTree = "<group>";
+		};
+		E73E801C1E5C72B80075329A /* FB issuing voucherTests */ = {
+			isa = PBXGroup;
+			children = (
+				E73E801D1E5C72B80075329A /* FB_issuing_voucherTests.swift */,
+				E73E801F1E5C72B80075329A /* Info.plist */,
+			);
+			path = "FB issuing voucherTests";
+			sourceTree = "<group>";
+		};
+		E73E80271E5C72B80075329A /* FB issuing voucherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E73E80281E5C72B80075329A /* FB_issuing_voucherUITests.swift */,
+				E73E802A1E5C72B80075329A /* Info.plist */,
+			);
+			path = "FB issuing voucherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E73E80011E5C72B80075329A /* FB issuing voucher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73E802D1E5C72B80075329A /* Build configuration list for PBXNativeTarget "FB issuing voucher" */;
+			buildPhases = (
+				E73E7FFE1E5C72B80075329A /* Sources */,
+				E73E7FFF1E5C72B80075329A /* Frameworks */,
+				E73E80001E5C72B80075329A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FB issuing voucher";
+			productName = "FB issuing voucher";
+			productReference = E73E80021E5C72B80075329A /* FB issuing voucher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E73E80181E5C72B80075329A /* FB issuing voucherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73E80301E5C72B80075329A /* Build configuration list for PBXNativeTarget "FB issuing voucherTests" */;
+			buildPhases = (
+				E73E80151E5C72B80075329A /* Sources */,
+				E73E80161E5C72B80075329A /* Frameworks */,
+				E73E80171E5C72B80075329A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E73E801B1E5C72B80075329A /* PBXTargetDependency */,
+			);
+			name = "FB issuing voucherTests";
+			productName = "FB issuing voucherTests";
+			productReference = E73E80191E5C72B80075329A /* FB issuing voucherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E73E80231E5C72B80075329A /* FB issuing voucherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73E80331E5C72B80075329A /* Build configuration list for PBXNativeTarget "FB issuing voucherUITests" */;
+			buildPhases = (
+				E73E80201E5C72B80075329A /* Sources */,
+				E73E80211E5C72B80075329A /* Frameworks */,
+				E73E80221E5C72B80075329A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E73E80261E5C72B80075329A /* PBXTargetDependency */,
+			);
+			name = "FB issuing voucherUITests";
+			productName = "FB issuing voucherUITests";
+			productReference = E73E80241E5C72B80075329A /* FB issuing voucherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E73E7FFA1E5C72B80075329A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tanrongliao;
+				TargetAttributes = {
+					E73E80011E5C72B80075329A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XS736WC5KF;
+						ProvisioningStyle = Automatic;
+					};
+					E73E80181E5C72B80075329A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XS736WC5KF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E73E80011E5C72B80075329A;
+					};
+					E73E80231E5C72B80075329A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XS736WC5KF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E73E80011E5C72B80075329A;
+					};
+				};
+			};
+			buildConfigurationList = E73E7FFD1E5C72B80075329A /* Build configuration list for PBXProject "FB issuing voucher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E73E7FF91E5C72B80075329A;
+			productRefGroup = E73E80031E5C72B80075329A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E73E80011E5C72B80075329A /* FB issuing voucher */,
+				E73E80181E5C72B80075329A /* FB issuing voucherTests */,
+				E73E80231E5C72B80075329A /* FB issuing voucherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E73E80001E5C72B80075329A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73E80131E5C72B80075329A /* LaunchScreen.storyboard in Resources */,
+				E73E80101E5C72B80075329A /* Assets.xcassets in Resources */,
+				E73E800B1E5C72B80075329A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73E80171E5C72B80075329A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73E80221E5C72B80075329A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E73E7FFE1E5C72B80075329A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73E80081E5C72B80075329A /* ViewController.swift in Sources */,
+				E73E80061E5C72B80075329A /* AppDelegate.swift in Sources */,
+				E73E800E1E5C72B80075329A /* FB_issuing_voucher.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73E80151E5C72B80075329A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73E801E1E5C72B80075329A /* FB_issuing_voucherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73E80201E5C72B80075329A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73E80291E5C72B80075329A /* FB_issuing_voucherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E73E801B1E5C72B80075329A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E73E80011E5C72B80075329A /* FB issuing voucher */;
+			targetProxy = E73E801A1E5C72B80075329A /* PBXContainerItemProxy */;
+		};
+		E73E80261E5C72B80075329A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E73E80011E5C72B80075329A /* FB issuing voucher */;
+			targetProxy = E73E80251E5C72B80075329A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E73E80091E5C72B80075329A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E73E800A1E5C72B80075329A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E73E80111E5C72B80075329A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E73E80121E5C72B80075329A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E73E802B1E5C72B80075329A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E73E802C1E5C72B80075329A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E73E802E1E5C72B80075329A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XS736WC5KF;
+				INFOPLIST_FILE = "FB issuing voucher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.FB-issuing-voucher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E73E802F1E5C72B80075329A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XS736WC5KF;
+				INFOPLIST_FILE = "FB issuing voucher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.FB-issuing-voucher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E73E80311E5C72B80075329A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XS736WC5KF;
+				INFOPLIST_FILE = "FB issuing voucherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.FB-issuing-voucherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FB issuing voucher.app/FB issuing voucher";
+			};
+			name = Debug;
+		};
+		E73E80321E5C72B80075329A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XS736WC5KF;
+				INFOPLIST_FILE = "FB issuing voucherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.FB-issuing-voucherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FB issuing voucher.app/FB issuing voucher";
+			};
+			name = Release;
+		};
+		E73E80341E5C72B80075329A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XS736WC5KF;
+				INFOPLIST_FILE = "FB issuing voucherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.FB-issuing-voucherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "FB issuing voucher";
+			};
+			name = Debug;
+		};
+		E73E80351E5C72B80075329A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XS736WC5KF;
+				INFOPLIST_FILE = "FB issuing voucherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.FB-issuing-voucherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "FB issuing voucher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E73E7FFD1E5C72B80075329A /* Build configuration list for PBXProject "FB issuing voucher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73E802B1E5C72B80075329A /* Debug */,
+				E73E802C1E5C72B80075329A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73E802D1E5C72B80075329A /* Build configuration list for PBXNativeTarget "FB issuing voucher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73E802E1E5C72B80075329A /* Debug */,
+				E73E802F1E5C72B80075329A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E73E80301E5C72B80075329A /* Build configuration list for PBXNativeTarget "FB issuing voucherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73E80311E5C72B80075329A /* Debug */,
+				E73E80321E5C72B80075329A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E73E80331E5C72B80075329A /* Build configuration list for PBXNativeTarget "FB issuing voucherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73E80341E5C72B80075329A /* Debug */,
+				E73E80351E5C72B80075329A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E73E800C1E5C72B80075329A /* FB_issuing_voucher.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E73E800D1E5C72B80075329A /* FB_issuing_voucher.xcdatamodel */,
+			);
+			currentVersion = E73E800D1E5C72B80075329A /* FB_issuing_voucher.xcdatamodel */;
+			path = FB_issuing_voucher.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E73E7FFA1E5C72B80075329A /* Project object */;
+}
