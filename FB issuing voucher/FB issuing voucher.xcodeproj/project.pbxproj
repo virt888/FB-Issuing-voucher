@@ -15,6 +15,14 @@
 		E73E80131E5C72B80075329A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73E80111E5C72B80075329A /* LaunchScreen.storyboard */; };
 		E73E801E1E5C72B80075329A /* FB_issuing_voucherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E801D1E5C72B80075329A /* FB_issuing_voucherTests.swift */; };
 		E73E80291E5C72B80075329A /* FB_issuing_voucherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E80281E5C72B80075329A /* FB_issuing_voucherUITests.swift */; };
+		E73E80371E5C75A20075329A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E80361E5C75A20075329A /* BaseViewController.swift */; };
+		E73E80391E5C75D80075329A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E80381E5C75D80075329A /* LoginViewController.swift */; };
+		E73E803B1E5C76070075329A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E803A1E5C76070075329A /* SearchViewController.swift */; };
+		E73E803D1E5C764E0075329A /* OutletListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E803C1E5C764E0075329A /* OutletListViewController.swift */; };
+		E73E803F1E5C768C0075329A /* OutletInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E803E1E5C768C0075329A /* OutletInfoViewController.swift */; };
+		E73E80441E5C7D290075329A /* cathay_pacific_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E73E80411E5C7D290075329A /* cathay_pacific_logo.png */; };
+		E73E80451E5C7D290075329A /* cathay_pacific_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E73E80421E5C7D290075329A /* cathay_pacific_logo@2x.png */; };
+		E73E80461E5C7D290075329A /* cathay_pacific_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E73E80431E5C7D290075329A /* cathay_pacific_logo@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		E73E80241E5C72B80075329A /* FB issuing voucherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FB issuing voucherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73E80281E5C72B80075329A /* FB_issuing_voucherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FB_issuing_voucherUITests.swift; sourceTree = "<group>"; };
 		E73E802A1E5C72B80075329A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73E80361E5C75A20075329A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E73E80381E5C75D80075329A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E73E803A1E5C76070075329A /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E73E803C1E5C764E0075329A /* OutletListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutletListViewController.swift; sourceTree = "<group>"; };
+		E73E803E1E5C768C0075329A /* OutletInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutletInfoViewController.swift; sourceTree = "<group>"; };
+		E73E80411E5C7D290075329A /* cathay_pacific_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cathay_pacific_logo.png; sourceTree = "<group>"; };
+		E73E80421E5C7D290075329A /* cathay_pacific_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cathay_pacific_logo@2x.png"; sourceTree = "<group>"; };
+		E73E80431E5C7D290075329A /* cathay_pacific_logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cathay_pacific_logo@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +117,13 @@
 			children = (
 				E73E80051E5C72B80075329A /* AppDelegate.swift */,
 				E73E80071E5C72B80075329A /* ViewController.swift */,
+				E73E80361E5C75A20075329A /* BaseViewController.swift */,
+				E73E80381E5C75D80075329A /* LoginViewController.swift */,
+				E73E803A1E5C76070075329A /* SearchViewController.swift */,
+				E73E803C1E5C764E0075329A /* OutletListViewController.swift */,
+				E73E803E1E5C768C0075329A /* OutletInfoViewController.swift */,
 				E73E80091E5C72B80075329A /* Main.storyboard */,
+				E73E80401E5C7D290075329A /* Image */,
 				E73E800F1E5C72B80075329A /* Assets.xcassets */,
 				E73E80111E5C72B80075329A /* LaunchScreen.storyboard */,
 				E73E80141E5C72B80075329A /* Info.plist */,
@@ -126,6 +148,16 @@
 				E73E802A1E5C72B80075329A /* Info.plist */,
 			);
 			path = "FB issuing voucherUITests";
+			sourceTree = "<group>";
+		};
+		E73E80401E5C7D290075329A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E73E80411E5C7D290075329A /* cathay_pacific_logo.png */,
+				E73E80421E5C7D290075329A /* cathay_pacific_logo@2x.png */,
+				E73E80431E5C7D290075329A /* cathay_pacific_logo@3x.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,8 +270,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E73E80451E5C7D290075329A /* cathay_pacific_logo@2x.png in Resources */,
 				E73E80131E5C72B80075329A /* LaunchScreen.storyboard in Resources */,
 				E73E80101E5C72B80075329A /* Assets.xcassets in Resources */,
+				E73E80441E5C7D290075329A /* cathay_pacific_logo.png in Resources */,
+				E73E80461E5C7D290075329A /* cathay_pacific_logo@3x.png in Resources */,
 				E73E800B1E5C72B80075329A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,9 +300,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E73E803B1E5C76070075329A /* SearchViewController.swift in Sources */,
+				E73E803F1E5C768C0075329A /* OutletInfoViewController.swift in Sources */,
 				E73E80081E5C72B80075329A /* ViewController.swift in Sources */,
+				E73E80371E5C75A20075329A /* BaseViewController.swift in Sources */,
 				E73E80061E5C72B80075329A /* AppDelegate.swift in Sources */,
+				E73E80391E5C75D80075329A /* LoginViewController.swift in Sources */,
 				E73E800E1E5C72B80075329A /* FB_issuing_voucher.xcdatamodeld in Sources */,
+				E73E803D1E5C764E0075329A /* OutletListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +556,7 @@
 				E73E802F1E5C72B80075329A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E73E80301E5C72B80075329A /* Build configuration list for PBXNativeTarget "FB issuing voucherTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +565,7 @@
 				E73E80321E5C72B80075329A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E73E80331E5C72B80075329A /* Build configuration list for PBXNativeTarget "FB issuing voucherUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +574,7 @@
 				E73E80351E5C72B80075329A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
