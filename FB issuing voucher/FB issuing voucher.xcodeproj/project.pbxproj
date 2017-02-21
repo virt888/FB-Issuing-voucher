@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E73E80061E5C72B80075329A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E80051E5C72B80075329A /* AppDelegate.swift */; };
-		E73E80081E5C72B80075329A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E80071E5C72B80075329A /* ViewController.swift */; };
 		E73E800B1E5C72B80075329A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73E80091E5C72B80075329A /* Main.storyboard */; };
 		E73E800E1E5C72B80075329A /* FB_issuing_voucher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E73E800C1E5C72B80075329A /* FB_issuing_voucher.xcdatamodeld */; };
 		E73E80101E5C72B80075329A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73E800F1E5C72B80075329A /* Assets.xcassets */; };
@@ -45,7 +44,6 @@
 /* Begin PBXFileReference section */
 		E73E80021E5C72B80075329A /* FB issuing voucher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FB issuing voucher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73E80051E5C72B80075329A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E73E80071E5C72B80075329A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E73E800A1E5C72B80075329A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E73E800D1E5C72B80075329A /* FB_issuing_voucher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FB_issuing_voucher.xcdatamodel; sourceTree = "<group>"; };
 		E73E800F1E5C72B80075329A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -116,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				E73E80051E5C72B80075329A /* AppDelegate.swift */,
-				E73E80071E5C72B80075329A /* ViewController.swift */,
 				E73E80361E5C75A20075329A /* BaseViewController.swift */,
 				E73E80381E5C75D80075329A /* LoginViewController.swift */,
 				E73E803A1E5C76070075329A /* SearchViewController.swift */,
@@ -302,7 +299,6 @@
 			files = (
 				E73E803B1E5C76070075329A /* SearchViewController.swift in Sources */,
 				E73E803F1E5C768C0075329A /* OutletInfoViewController.swift in Sources */,
-				E73E80081E5C72B80075329A /* ViewController.swift in Sources */,
 				E73E80371E5C75A20075329A /* BaseViewController.swift in Sources */,
 				E73E80061E5C72B80075329A /* AppDelegate.swift in Sources */,
 				E73E80391E5C75D80075329A /* LoginViewController.swift in Sources */,
